@@ -1,7 +1,5 @@
 const fs = require("fs");
 
-const path = "./data/txt";
-
 const count = (data) => {
   const words = data.split(/\s+/);
   return words.length;
